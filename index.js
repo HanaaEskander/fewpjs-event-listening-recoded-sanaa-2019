@@ -6,6 +6,6 @@ function addingEventListener(ev) {
 }
 
 
-addingEventListener('click');
+
 
 addingEventListener('click');
