@@ -1,7 +1,11 @@
-document.querySelector('main#main').remove();
-let newHeader = document.createElement('h1');
-newHeader.setAttribute("id","victory");
-newHeader.innerHTML = "JALAL is the champion";
-document.body.appendChild(newHeader);
+function addingEventListener(ev) {
+  let input1 = document.querySelector('input#input');
+  input1.addEventListener(ev,function(event) {
+  alert('I was clicked!');
+});
+}
+
+
+addingEventListener('click');
 
 addingEventListener('click');
